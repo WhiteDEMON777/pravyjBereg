@@ -4,13 +4,13 @@
       <div class="header__container">
         <div class="header__logo"></div>
         <div class="header__subtitle">БАЙК-РОК ФЕСТИВАЛЬ</div>
-        <div class="header__title">«ПРАВЫЙ БЕРЕГ 2022»</div>
+        <div class="header__title">«ПРАВЫЙ БЕРЕГ 2023»</div>
       </div>
     </header>
     <div class="content">
       <div class="content__container">
         <div class="content__subtitle">Байк-Рок Фестивалю</div>
-        <div class="content__title">"ПРАВЫЙ БЕРЕГ 2022"</div>
+        <div class="content__title">"ПРАВЫЙ БЕРЕГ 2023"</div>
         <div class="content__text">БЫТЬ !</div>
       </div>
     </div>
@@ -18,7 +18,7 @@
       <div class="info__container">
         <div class="info__title">О ФЕСТИВАЛЕ</div>
         <div class="info__text">
-          С 8 по 10 мая 2021 года, в Саратовской области, состоится байк-рок
+          С 6 по 9 мая 2023 года, в Саратовской области, состоится байк-рок
           фестиваль <span>«Правый Берег»</span>. Ежегодно это событие собирает
           несколько тысяч любителей мотоциклов, рок-музыки и хорошего отдыха из
           России, стран СНГ и Европы
@@ -99,7 +99,7 @@
       <div class="place__container">
         <div class="place__title">Место проведения</div>
         <div class="place__subtitle">
-          В 2022 году фестиваль пройдет в ДОЦ "РОВЕСНИК" с 8-го по 10 мая.
+          В 2023 году фестиваль пройдет в ДОЦ "РОВЕСНИК" с 6-го по 9 мая.
         </div>
         <img src="@/static/img/picture/photo.png" alt="" class="place__img" />
         <div class="place__text">Схема размещения</div>
@@ -153,7 +153,7 @@
     </div>
     <footer class="footer">
       <div class="footer__container">
-        <div class="footer__copiraited">© 2022</div>
+        <div class="footer__copiraited">© 2023</div>
         <div class="footer__logo"></div>
         <div class="footer__social">
           <a
@@ -189,7 +189,7 @@
 export default {
   mounted() {
     // Задаём конечную дату (Дедлайн)
-    let deadline = "2022-09-08";
+    let deadline = "2023-05-06";
 
     // Сколько осталось времени
     function getTimeRemaining(endtime) {
